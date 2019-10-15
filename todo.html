@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="style2.css" rel="stylesheet"/>
+    <title>Working with JavaScript Dom</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="page-banner">
+                <h1 class="title">Moviemania</h1>
+                <p>Movies for everyone</p>
+                <form id="search-movies">
+                    <input type="text" placeholder="Search Movies">
+                </form>
+            </div>
+        </header>
+        <div id="movie-list">
+            <h2 class="title">Movies to watch</h2>
+            <ul>
+                <li>
+                    <span class="name">Fight Club</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Shawshank Redemption</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Dilwale</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Dark Knight</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Dark Knight1</span>
+                    <span class="delete">delete</span>
+                </li>
+            </ul>
+        </div>
+        <form id="add-movie">
+            <input type="checkbox" id="hide">
+            <label for="hide">Hide the List</label>
+            <input type="text" placeholder="Add a movie">
+            <button>Add</button>
+        </form>        
+    </div>
+    
+   <script src="movieapp.js"></script>
+</body>    
+</html>
